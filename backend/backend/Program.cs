@@ -1,6 +1,5 @@
-using backend.DataBase;
-using backend.DataBase.Table;
 using backend.Middleware;
+using backend.Services;
 
 namespace backend
 {
@@ -9,9 +8,18 @@ namespace backend
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            // Регистрируем DBWork как сервис (Singleton для локалки)
+            builder.Services.AddSingleton(new DBWork(@"Server=(localdb)\MSSQLLocalDB;Database=TestBD;Trusted_Connection=True;TrustServerCertificate=True;"));
+            // Регоаем контроллеры
+            builder.Services.AddControllers(); 
+
             var app = builder.Build();
 
-            app.UseMiddleware<OrderMiddleware>();
+            //Подключаем Middleware
+            app.UseMiddleware<StatusMiddleware>();
+
+            //Маршрутизация 
+            app.MapControllers();
 
             app.Run();
         }
