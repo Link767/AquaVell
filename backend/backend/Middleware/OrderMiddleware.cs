@@ -1,5 +1,7 @@
-﻿using backend.DataBase;
-using backend.DataBase.Table;
+﻿
+
+using backend.Model;
+using backend.Services;
 
 namespace backend.Middleware
 {
