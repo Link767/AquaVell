@@ -11,9 +11,22 @@ namespace backend
             // Регистрируем DBWork как сервис (Singleton для локалки)
             builder.Services.AddSingleton(new DBWork(@"Server=(localdb)\MSSQLLocalDB;Database=TestBD;Trusted_Connection=True;TrustServerCertificate=True;"));
             // Регоаем контроллеры
-            builder.Services.AddControllers(); 
+            builder.Services.AddControllers();
+            //Запускаем CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(policy =>
+                {
+                    policy.WithOrigins("http://localhost:3000")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                });
+            });
 
             var app = builder.Build();
+
+            //Используем CORS
+            app.UseCors();
 
             //Подключаем Middleware
             app.UseMiddleware<StatusMiddleware>();
