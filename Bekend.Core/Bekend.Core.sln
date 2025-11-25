@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bekend.Core", "Bekend.Core\Bekend.Core.csproj", "{916D2A89-E42A-4F89-B316-E468A3389765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bekend.Data", "Bekend.Data\Bekend.Data.csproj", "{8D0ED550-B9F3-461D-B325-EA0676C2EE6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916D2A89-E42A-4F89-B316-E468A3389765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916D2A89-E42A-4F89-B316-E468A3389765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916D2A89-E42A-4F89-B316-E468A3389765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916D2A89-E42A-4F89-B316-E468A3389765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0ED550-B9F3-461D-B325-EA0676C2EE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0ED550-B9F3-461D-B325-EA0676C2EE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0ED550-B9F3-461D-B325-EA0676C2EE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0ED550-B9F3-461D-B325-EA0676C2EE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
