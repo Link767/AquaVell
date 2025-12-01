@@ -11,9 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Endpoint\" />
-      <Folder Include="Middeleware\" />
-      <Folder Include="Service\" />
+      <ProjectReference Include="..\aquawell.Data.Postgresql\aquawell.Data.Postgresql.csproj" />
     </ItemGroup>
 
 </Project>
