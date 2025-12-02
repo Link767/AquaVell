@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aquawell.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f35644b86383c325db107eec6bfef73489a0bb7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ea00c5836789a3ce0e710d9916c949724c08a4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("aquawell.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aquawell.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
