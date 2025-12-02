@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aquawell.Data.Postgresql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ea00c5836789a3ce0e710d9916c949724c08a4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a32289325d6132205dc18b468cb2530133cf574")]
 [assembly: System.Reflection.AssemblyProductAttribute("aquawell.Data.Postgresql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aquawell.Data.Postgresql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

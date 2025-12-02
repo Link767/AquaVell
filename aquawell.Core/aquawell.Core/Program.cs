@@ -11,9 +11,21 @@ builder.Services.AddOpenApi();
 builder.Services.AddScoped<RequestDB>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 //Middleware
 app.UseMiddleware<StatusMiddleware>();
+//CORS
+app.UseCors();
 //Endpoint
 app.MapOrder();
 

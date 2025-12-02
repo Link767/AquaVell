@@ -2,7 +2,7 @@
 
 public class OrderDto
 {
-    public string ClientName { get; set; } = "";
-    public string ClientMail { get; set; } = "";
-    public string ClientPhoneNum { get; set; } = "";
+    public string Name  { get; set; } = "";
+    public string Telnum  { get; set; } = "";
+    public string Email  { get; set; } = "";
 }

@@ -5,7 +5,7 @@ namespace aquawell.Data.Postgresql;
 
 public class BDWork
 {
-    private string _connectionString = "Server=127.0.0.1;Port=5432;User Id=postgres;Password=1234;Database=aquawell;";
+    private string _connectionString = "Server=127.0.0.1;Port=5433;User Id=postgres;Password=12345;Database=aquawell;";
 
     public async Task Insert(string query, Dictionary<string, object> parameters)
     {
@@ -14,11 +14,9 @@ public class BDWork
 
         using var transaction = await connection.BeginTransactionAsync();
         using var command = new NpgsqlCommand(query, connection, transaction);
-
         // Добавляем параметры в команду
         foreach (var p in parameters)
             command.Parameters.AddWithValue(p.Key, p.Value);
-
         try
         {
             await command.ExecuteNonQueryAsync();
@@ -30,8 +28,6 @@ public class BDWork
             throw;
         }
     }
-
-
     public async Task<DataTable> GetDataTableAsync(string query)
     {
         using (NpgsqlConnection connection =  new NpgsqlConnection(_connectionString))

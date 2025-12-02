@@ -11,3 +11,16 @@ C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debu
 C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\refint\aquawell.Data.Postgresql.dll
 C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.pdb
 C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\ref\aquawell.Data.Postgresql.dll
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\bin\Debug\net9.0\aquawell.Data.Postgresql.deps.json
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\bin\Debug\net9.0\aquawell.Data.Postgresql.dll
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\bin\Debug\net9.0\aquawell.Data.Postgresql.pdb
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.csproj.AssemblyReference.cache
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.AssemblyInfoInputs.cache
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.AssemblyInfo.cs
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.csproj.CoreCompileInputs.cache
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.sourcelink.json
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.dll
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\refint\aquawell.Data.Postgresql.dll
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\aquawell.Data.Postgresql.pdb
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Data.Postgresql\obj\Debug\net9.0\ref\aquawell.Data.Postgresql.dll
