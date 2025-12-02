@@ -10,4 +10,8 @@
       <PackageReference Include="Npgsql" Version="10.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Data\Sql\PostOrder.sql" />
+    </ItemGroup>
+
 </Project>

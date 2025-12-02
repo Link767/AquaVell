@@ -14,4 +14,11 @@
       <ProjectReference Include="..\aquawell.Data.Postgresql\aquawell.Data.Postgresql.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Data\Sql\PostOrder.sql" />
+      <Content Include="Data\Sql\PostOrder.sql">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

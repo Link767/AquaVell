@@ -34,3 +34,4 @@ C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\re
 C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\aquawell.Core.pdb
 C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\aquawell.Core.genruntimeconfig.cache
 C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\ref\aquawell.Core.dll
+C:\Users\win-112\GitHub\AquaVell\aquawell.Core\aquawell.Core\bin\Debug\net9.0\Data\Sql\PostOrder.sql

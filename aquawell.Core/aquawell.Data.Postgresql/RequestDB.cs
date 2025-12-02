@@ -7,7 +7,7 @@ public class RequestDB
 {
     public async Task PastOrders(string clientName, string clientMail, string clientPhone)
     {
-        string query = "INSERT INTO oreders (clientname, clientmail, clientphonenum) VALUES (@clientName,@clientmail,@clientphonenum)";
+        string query = await File.ReadAllTextAsync("Data/Sql/PostOrder.sql");
         
         BDWork db = new BDWork();
         
