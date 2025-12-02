@@ -10,7 +10,7 @@ builder.Services.AddOpenApi();
 //Service
 builder.Services.AddScoped<RequestDB>();
 builder.Services.AddScoped<IOrderService, OrderService>();
-
+// Reg CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
