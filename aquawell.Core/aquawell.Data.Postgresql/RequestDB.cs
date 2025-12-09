@@ -16,6 +16,7 @@ public class RequestDB
             {"@clientName", clientName},
             {"@clientmail", clientMail},
             {"@clientphonenum", clientPhone},
+            {"@datesubmissionorder",  DateTime.Now},
         };
 
         await db.Insert(query, parameters);

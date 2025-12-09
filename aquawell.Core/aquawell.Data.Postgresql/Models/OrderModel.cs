@@ -6,4 +6,5 @@ public class OrderModel
     public string ClientName { get; set; } = "";
     public string ClientMail { get; set; } = "";
     public string ClientPhoneNum { get; set; } = "";
+    public DateTime OrderDate { get; set; }
 }

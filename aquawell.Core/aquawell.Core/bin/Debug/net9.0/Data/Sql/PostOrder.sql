@@ -1,4 +1,4 @@
 ﻿INSERT INTO oreders 
-    (clientname, clientmail, clientphonenum) 
+    (clientname, clientmail, clientphonenum, datesubmissionorder) 
 VALUES 
-    (@clientName,@clientmail,@clientphonenum)
+    (@clientName,@clientmail,@clientphonenum, @datesubmissionorder)
