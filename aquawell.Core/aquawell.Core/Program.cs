@@ -28,5 +28,5 @@ app.UseMiddleware<StatusMiddleware>();
 app.UseCors();
 //Endpoint
 app.MapOrder();
-
+app.MapProduct();
 app.Run();
