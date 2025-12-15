@@ -5,4 +5,5 @@ namespace aquawell.Core.Service.Interfaces;
 public interface IProductService
 {
     public Task<MinProductDto?> GetMinProduct();
+    public Task<FullProductDto?> GetFullProduct(string productName);
 }

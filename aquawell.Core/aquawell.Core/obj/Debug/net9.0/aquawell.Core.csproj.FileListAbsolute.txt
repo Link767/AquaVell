@@ -73,3 +73,5 @@ C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\refint
 C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\aquawell.Core.pdb
 C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\aquawell.Core.genruntimeconfig.cache
 C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Core\obj\Debug\net9.0\ref\aquawell.Core.dll
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Core\bin\Debug\net9.0\Data\Sql\SelectMinProductInfo.sql
+C:\Users\BUddha\Git\AquaVell\aquawell.Core\aquawell.Core\bin\Debug\net9.0\Data\Sql\SelectFullProduct.sql

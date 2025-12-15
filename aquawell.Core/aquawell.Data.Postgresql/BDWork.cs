@@ -41,4 +41,17 @@ public class BDWork
             }
         }
     }
+
+    public async Task<DataTable> GetDataTableAsync(string query, Dictionary<string, object> parameters)
+    {
+        using var connection = new NpgsqlConnection(_connectionString);
+        await connection.OpenAsync();
+        using var command = new NpgsqlCommand(query, connection);
+        foreach (var p in parameters)
+            command.Parameters.AddWithValue(p.Key, p.Value);
+        using NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(command);
+        DataTable dt = new DataTable();
+        adapter.Fill(dt);
+        return dt;
+    }
 }

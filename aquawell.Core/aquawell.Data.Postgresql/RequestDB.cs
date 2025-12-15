@@ -33,8 +33,33 @@ public class RequestDB
         
         return new MinProductModel
         {
-            ProductName = minProduct.Rows[0]["ProductName"].ToString() ?? "",
-            ProductPrice = Convert.ToDecimal(minProduct.Rows[0]["ProductPrice"])
+            ProductName = minProduct.Rows[0]["productname"].ToString() ?? "",
+            ProductPrice = Convert.ToDecimal(minProduct.Rows[0]["productprice"])
+        };
+    }
+
+    public async Task<ProductModel> GetProduct(string productName) //переписать на Daper !!!!
+    {
+        string query = await File.ReadAllTextAsync("Data/Sql/SelectMinProductInfo.sql");
+        BDWork db = new BDWork();
+        var param = new Dictionary<string, object>
+        {
+            ["productName"] = productName
+        };
+        DataTable? fullProduct = await db.GetDataTableAsync(query, param);
+        if (fullProduct.Rows.Count < 1)
+        {
+            Console.WriteLine($"No records in table product\nPlease check data in table");
+            return null;
+        }
+        return new ProductModel
+        {
+            ProductName = fullProduct.Rows[0]["productname"].ToString() ?? "",
+            ProductWidth = Convert.ToSingle(fullProduct.Rows[0]["productwidth"]),
+           //  ProductLength = (float) fullProduct.Rows[0]["productlength"],
+           // ProductDepth = (float) fullProduct.Rows[0]["productdepth"],
+           // ProductDescription = fullProduct.Rows[0]["productdescription"].ToString() ?? "",
+            ProductPrice = Convert.ToDecimal(fullProduct.Rows[0]["productprice"])
         };
     }
 }

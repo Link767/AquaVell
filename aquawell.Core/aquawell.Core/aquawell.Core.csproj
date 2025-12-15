@@ -19,6 +19,14 @@
       <Content Include="Data\Sql\PostOrder.sql">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <None Remove="Data\Sql\SelectMinProductInfo.sql" />
+      <Content Include="Data\Sql\SelectMinProductInfo.sql">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Data\Sql\SelectFullProduct.sql" />
+      <Content Include="Data\Sql\SelectFullProduct.sql">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
