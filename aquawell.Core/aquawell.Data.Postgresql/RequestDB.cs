@@ -21,4 +21,20 @@ public class RequestDB
 
         await db.Insert(query, parameters);
     }
+
+    public async Task<MinProductModel> GetMinProduct()
+    {
+        string query = await File.ReadAllTextAsync("Data/Sql/SelectMinProductInfo.sql");
+        BDWork db = new BDWork();
+        
+        DataTable minProduct = await db.GetDataTableAsync(query);
+        if (minProduct.Rows.Count < 1)
+            return null;
+        
+        return new MinProductModel
+        {
+            ProductName = minProduct.Rows[0]["ProductName"].ToString() ?? "",
+            ProductPrice = Convert.ToDecimal(minProduct.Rows[0]["ProductPrice"])
+        };
+    }
 }

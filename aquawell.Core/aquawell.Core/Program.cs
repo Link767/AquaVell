@@ -10,6 +10,7 @@ builder.Services.AddOpenApi();
 //Service
 builder.Services.AddScoped<RequestDB>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 // Reg CORS
 builder.Services.AddCors(options =>
 {
@@ -29,4 +30,5 @@ app.UseCors();
 //Endpoint
 app.MapOrder();
 app.MapProduct();
+
 app.Run();
